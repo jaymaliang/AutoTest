@@ -4,7 +4,6 @@ package com.course.testng;/**
  * @Description:
  */
 
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 /**
@@ -29,7 +28,7 @@ public class IgnoreTest {
         System.out.println("ignore3执行！");
     }
 
-    @Ignore
+    @Test(enabled = false)
     public void ignore4(){
         System.out.println("ignore4执行！");
     }

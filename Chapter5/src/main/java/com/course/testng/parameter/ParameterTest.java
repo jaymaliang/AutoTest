@@ -14,9 +14,15 @@ import org.testng.annotations.Test;
  */
 public class ParameterTest {
 
-    @Test
     @Parameters({"name","age"})
+    @Test
     public void parameterTest1(String name,int age){
+        System.out.println("name="+name+",age="+age);
+    }
+
+    @Parameters({"name","age"})
+    @Test
+    public void parameterTest2(String name,int age){
         System.out.println("name="+name+",age="+age);
     }
 }
