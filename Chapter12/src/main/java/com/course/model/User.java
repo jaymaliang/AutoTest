@@ -1,6 +1,6 @@
-package com.course;/**
+package com.course.model;/**
  * @Author: JayChou
- * @Date: 2019/10/16 10:22
+ * @Date: 2019/10/16 10:36
  * @Description:
  */
 
@@ -9,5 +9,5 @@ package com.course;/**
  *2019/10/16
  *
  */
-public class model {
+public class User {
 }
